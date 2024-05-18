@@ -16,7 +16,7 @@ use Drupal\Core\Access\AccessResult;
  * Provides the RSVP main block type.
  * @Block(
  *   id = "rsvp_block",
- *   admin_label = @Translation("The RSVPForm block"),
+ *   admin_label = @Translation("RSVP Form block"),
  *   )
  */
 class RSVPBlock extends BlockBase
@@ -26,7 +26,7 @@ class RSVPBlock extends BlockBase
   {
 //    just kidding
 //    $markup = '<div class="rsvp-block">';
-//    $markup .= '<p>' . $this->t('My RSVP List Block') . '</p>';
+//    $markup .= '<p>' . $this->t('RSVP List Block') . '</p>';
 //    $markup .= '</div>';
 //    return [
 //      '#type' => 'markup',
